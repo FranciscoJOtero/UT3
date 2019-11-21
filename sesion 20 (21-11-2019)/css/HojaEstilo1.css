@@ -1,0 +1,21 @@
+/* Crear variables en Sass */
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: #59e4e4;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+div .cajaroja {
+  width: 60%;
+  min-height: 200px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* utilizo la variable creada anteriormente */
+}
+
+/*# sourceMappingURL=HojaEstilo1.css.map */

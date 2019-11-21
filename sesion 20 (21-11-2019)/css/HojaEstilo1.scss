@@ -1,0 +1,24 @@
+$fuente1:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Crear variables en Sass */
+
+div {
+
+    width: 80%;
+    min-height: 400px;
+    background-color: rgb(89, 228, 228);
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+
+    .cajaroja {
+
+        width: 60%;
+        min-height: 200px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-family: $fuente1; /* utilizo la variable creada anteriormente */
+
+    }
+
+}
