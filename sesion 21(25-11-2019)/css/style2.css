@@ -19,7 +19,7 @@ body {
   margin-right: auto;
   border: 2px solid blue;
   box-sizing: border-box;
-  display: flow-root; /* A pesar de no darle una altura al contenedor, permite que éste se adecue a los elementos(flotantes) que contiene*/
+  display: flow-root;
 }
 
 article[role=main] {
@@ -38,6 +38,15 @@ aside[role=complementary] {
   background-color: red;
   color: black;
   font-weight: bolder;
+}
+
+/* Prueba de Operadores */
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style2.css.map */
