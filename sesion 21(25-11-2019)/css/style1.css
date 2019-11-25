@@ -1,0 +1,38 @@
+.capacontenedora1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: blanchedalmond;
+}
+.capacontenedora1 > .capahija1 {
+  /* Selector hijo.Anidamiento Sass */
+  width: 50%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid black;
+}
+
+.capacontenedora2 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 400px;
+  background-color: chartreuse;
+}
+.capacontenedora2 .capahija2 {
+  /* Selector descendente.Anidamiento Sass */
+  width: 50%;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: orange;
+  color: white;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style1.css.map */
