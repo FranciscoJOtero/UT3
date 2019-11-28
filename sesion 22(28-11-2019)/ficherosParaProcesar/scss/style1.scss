@@ -1,4 +1,4 @@
-@mixin borderradius($radio,$color) {
+@mixin borderradius($radio,$color,$fondo) {
     -webkit-border-radius: $radio;
     -moz-border-radius: $radio;
     -ms-border-radius: $radio;
@@ -9,23 +9,46 @@
     float: left;
     box-sizing: border-box;
     border: 1px solid $color;
+    &:hover {
+        background-color: $fondo;
+        color:white;
+    }
     
+}
+%texto {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline blueviolet; /* Tambien permite un color */
+    font-size: 2rem;
+
+
 }
 
 .capaBorderRadius1 {
 
-        @include borderradius(3px,red);
-
+        @include borderradius(3px,red,red);
+        &__texto1 {
+            @extend %texto;
+        }
+        
 }
 
 .capaBorderRadius2 {
 
-    @include borderradius(6px,blue);
+    @include borderradius(6px,blue,green);
+    &__texto1 {
+        @extend %texto;
+    }
+    
 
 }
 
 .capaBorderRadius3 {
 
-    @include borderradius(9px,green);
+    @include borderradius(9px,green,red);
+    &__texto1 {
+        @extend %texto;
 
+    }
+    
 }

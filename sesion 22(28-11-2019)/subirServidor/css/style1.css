@@ -1,3 +1,10 @@
+.capaBorderRadius3__texto1, .capaBorderRadius2__texto1, .capaBorderRadius1__texto1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline blueviolet;
+  /* Tambien permite un color */
+  font-size: 2rem;
+}
+
 .capaBorderRadius1 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -10,7 +17,10 @@
   box-sizing: border-box;
   border: 1px solid red;
 }
-
+.capaBorderRadius1:hover {
+  background-color: red;
+  color: white;
+}
 .capaBorderRadius2 {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -23,7 +33,10 @@
   box-sizing: border-box;
   border: 1px solid blue;
 }
-
+.capaBorderRadius2:hover {
+  background-color: green;
+  color: white;
+}
 .capaBorderRadius3 {
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -35,6 +48,10 @@
   float: left;
   box-sizing: border-box;
   border: 1px solid green;
+}
+.capaBorderRadius3:hover {
+  background-color: red;
+  color: white;
 }
 
 /*# sourceMappingURL=style1.css.map */
