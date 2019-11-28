@@ -1,0 +1,31 @@
+@mixin borderradius($radio,$color) {
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    border-radius: $radio;
+    width: 300px / 900px * 100%;
+    min-height: 400px;
+   /* width: 1 / 3 * 100%; */
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid $color;
+    
+}
+
+.capaBorderRadius1 {
+
+        @include borderradius(3px,red);
+
+}
+
+.capaBorderRadius2 {
+
+    @include borderradius(6px,blue);
+
+}
+
+.capaBorderRadius3 {
+
+    @include borderradius(9px,green);
+
+}
