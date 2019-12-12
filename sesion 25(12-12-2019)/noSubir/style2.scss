@@ -1,0 +1,29 @@
+%contenedor {
+
+    min-height: 800px;
+    background-color: pink;
+    display: flex;
+    
+}
+
+%capahija {
+
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.8rem;
+    background-color:blueviolet;
+
+}
+
+.contenedorFlex {
+
+    @extend %contenedor;
+    align-items: flex-start;
+
+    > div {
+
+        @extend %capahija;
+
+    }
+
+}
