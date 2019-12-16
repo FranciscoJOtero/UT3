@@ -1,0 +1,80 @@
+.contenedorFlex {
+
+    display: flex;
+    width: 500px;
+    background-color: dodgerblue;
+    padding: 20px;
+    min-height: 300px;
+    
+    > .elemento1 {
+
+        flex-basis: 200px; /* Si le fijas un ancho determinado, de ahí no va a decrecer pero si permite que crezca */
+        flex-grow: 1;
+        background-color: #f1f1f1;
+    }
+
+    > .elemento2 {
+
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: #f1f1f1;
+    }
+
+    > .elemento3 {
+
+        flex-basis: auto;
+        flex-grow: 2;
+        background-color: #f1f1f1;
+    }
+
+    > .elementoHijo1 {
+
+        background-color: #f1f1f1;
+        padding: 10px;
+        align-self: flex-end;
+    }
+
+    > .elementoHijo2 {
+
+        background-color: #f1f1f1;
+        padding: 10px;
+        align-self: flex-start;
+    }
+}
+
+.contenedorFlex2 {
+
+    display: flex;
+    background-color: dodgerblue;
+    padding: 20px;
+
+    > .elemento1 {
+
+        background-color: #f1f1f1;
+        padding: 10px;
+        display: flex;
+
+        > .elemento11 {
+
+            background-color: pink;
+            padding: 10px;
+
+        }
+
+        > .elemento12 {
+
+            background-color: pink;
+            padding: 10px;
+
+        }
+
+    }
+
+    > .elemento2 {
+
+        background-color: #f1f1f1;
+        padding: 10px;
+
+    }
+
+}
